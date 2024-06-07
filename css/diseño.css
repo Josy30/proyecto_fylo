@@ -17,10 +17,14 @@ header .inicio {
   gap: 3rem;
 }
 
+main {
+  font-family: "Raleway", sans-serif;
+}
 main .cuerpo1 {
   margin: 4rem 4rem;
   display: flex;
   height: 30rem;
+  color: #07043B;
 }
 main .cuerpo1 .titulo1 {
   flex: 1;
@@ -35,6 +39,24 @@ main .cuerpo1 .titulo1 h1 {
 main .cuerpo1 .titulo1 p {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
+  padding-bottom: 12px;
+}
+main .cuerpo1 .titulo1 input {
+  margin: 13px 13px;
+  margin-left: 0px;
+  padding: 12px 50px;
+  padding-left: 15px;
+  text-align: left;
+}
+main .cuerpo1 .titulo1 .boton-azul {
+  padding: 14px 60px;
+  background-color: #2F65F8;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
 }
 main .titulo1-icon {
   flex: 1;
@@ -44,10 +66,12 @@ main .titulo1-icon svg {
   height: 100%;
 }
 main .cuerpo2 {
-  margin: 6rem 4rem;
+  padding: 6rem 4rem;
   margin-bottom: 0;
   display: flex;
   height: 40rem;
+  background-color: #F8F8FE;
+  color: #07043B;
 }
 main .cuerpo2 .titulo2 {
   flex: 1;
@@ -65,14 +89,32 @@ main .cuerpo2 .titulo2 p {
 }
 main .cuerpo2 .titulo2 a {
   color: #3DA08F;
+  font-size: 17px;
+  margin-bottom: 2rem;
+}
+main .cuerpo2 .titulo2 .see-icon {
+  height: 20px;
 }
 main .cuerpo2 .titulo2-mensaje {
   border-color: #07043B;
   border-width: 10px;
+  background-color: #FFFFFF;
+  padding: 35px;
+  width: 22rem;
+  line-height: 2rem;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  margin-top: 2.5rem;
+  font-size: 17px;
+  box-shadow: 0px 0px 22px -5px #000000;
 }
 main .cuerpo2 .titulo2-mensaje p {
   font-family: "Open Sans", sans-serif;
-  font-size: 17px;
+  margin-top: 2px;
+}
+main .cuerpo2 .titulo2-mensaje img {
+  border-radius: 60px;
+  width: 50px;
 }
 main .cuerpo2 .titulo2-icon {
   flex: 1;
@@ -82,8 +124,13 @@ main .cuerpo2 .titulo2-icon svg {
   height: 100%;
 }
 main .cuerpo3 {
-  margin: 4rem 4rem;
+  padding: 4rem 4rem;
   display: flex;
+  background-color: #575988;
+  color: #FFFFFF;
+}
+main .cuerpo3 .cuerpo3-texto {
+  flex: 1;
 }
 main .cuerpo3 .cuerpo3-texto h1 {
   font-size: 40px;
@@ -96,6 +143,10 @@ main .cuerpo3 .cuerpo3-texto p {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
 }
+main .cuerpo3 .cuerpo3-acceso {
+  flex: 1;
+}
+
 footer {
   padding: 4rem 4rem;
   background-color: #07043B;
@@ -106,5 +157,6 @@ footer .listas {
   width: 100%;
 }
 footer .listas li {
+  color: #FFFFFF;
   list-style: none;
 }/*# sourceMappingURL=diseño.css.map */

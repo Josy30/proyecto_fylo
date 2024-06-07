@@ -25,12 +25,12 @@ header{
 }
 
 main{
-
+font-family: "Raleway", sans-serif;
     .cuerpo1{
     margin: 4rem 4rem;
     display: flex;
     height: 30rem;
-    
+    color:#07043B;
         .titulo1{
         flex: 1;
 
@@ -44,8 +44,26 @@ main{
             p{
             font-family:"Open Sans", sans-serif; ;
             font-size: 17px;
+            padding-bottom: 12px;
             }
-         
+            input{
+            margin: 13px 13px;
+            margin-left: 0px;
+            padding: 12px 50px;
+            padding-left: 15px;
+            text-align: left;
+            
+            }
+            .boton-azul{
+            padding: 14px 60px;
+            background-color: #2F65F8;  
+            border-radius: 3px; 
+            border: none;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+            }
 
 
         }
@@ -59,11 +77,12 @@ main{
     }
 
     .cuerpo2{
-    margin: 6rem 4rem;
+    padding: 6rem 4rem;
     margin-bottom: 0;
     display: flex;
     height: 40rem;
-    
+    background-color: #F8F8FE;
+    color:#07043B;
         .titulo2{
         flex:1;
             h1{
@@ -74,21 +93,40 @@ main{
                 margin-bottom: 1rem; 
             }
             p{
-                font-family:"Open Sans", sans-serif; ;
+                font-family:"Open Sans", sans-serif; 
                 font-size: 17px;
             }
             a{
                 color: #3DA08F;
+                font-size: 17px;
+                margin-bottom: 2rem;
+            }
+            .see-icon{
+                height: 20px;
             }
         }
 
         .titulo2-mensaje{
             border-color: #07043B;
             border-width: 10px;
+            background-color: #FFFFFF;
+            padding: 35px;
+            width: 22rem;
+            line-height: 2rem;
+            font-family:"Open Sans", sans-serif;
+            border-radius: 5px;
+            margin-top: 2.5rem;
+            font-size: 17px;
+            box-shadow: 0px 0px 22px -5px #000000;
             p{
                 font-family:"Open Sans", sans-serif; ;
-                font-size: 17px;
+                margin-top: 2px;
             }
+            img{
+                border-radius: 60px;
+                width: 50px;
+            }
+
         }
         .titulo2-icon{
             flex: 1;
@@ -97,23 +135,23 @@ main{
                     height: 100%;
                 }
             }
-        .titulo2-mensaje{
-
-        }
+        
     }
 
     .cuerpo3{
-        margin: 4rem 4rem;
+        padding: 4rem 4rem;
         display: flex;
-        
-
+        background-color: #575988;
+        color: #FFFFFF;
             .cuerpo3-texto{
+                flex:1;
                 h1{
                     font-size: 40px;
                     font-family: "Raleway", sans-serif;
                     line-height: 4rem;
                     font-weight: bold;
                     margin-bottom: 1rem;
+                    
                 }
                 p{
                     font-family:"Open Sans", sans-serif; ;
@@ -122,7 +160,7 @@ main{
             }
 
             .cuerpo3-acceso{
-
+                flex:1;
             }
 
     }
@@ -134,12 +172,16 @@ footer{
     padding: 4rem 4rem;
     background-color: #07043B;
     
+
     .listas{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    
         li{
+            color:#FFFFFF;
             list-style: none;
+            
         }
         
     }
