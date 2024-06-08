@@ -110,32 +110,36 @@ main .cuerpo2 .titulo2-mensaje {
   display: flex;
   flex-direction: column;
 }
+main .cuerpo2 .titulo2-mensaje svg {
+  font-size: 45px;
+}
 main .cuerpo2 .titulo2-mensaje p {
   font-family: "Open Sans", sans-serif;
   margin: 5px;
-  padding: 20px 20px;
+  padding: 10px 20px;
   width: 100%;
   padding-left: 0px;
+}
+main .cuerpo2 .titulo2-mensaje .caja-avatar .avatar {
+  display: flex;
 }
 main .cuerpo2 .titulo2-mensaje .caja-avatar .avatar img {
   border-radius: 60px;
   width: 50px;
-  flex: 1;
+  height: 50px;
 }
 main .cuerpo2 .titulo2-mensaje .caja-avatar .icon-mensaje {
-  display: flex;
+  padding-left: 1rem;
   font-family: "Open Sans", sans-serif;
+  line-height: 1rem;
 }
 main .cuerpo2 .titulo2-mensaje .caja-avatar .icon-mensaje h3 {
   margin: 0px;
   font-size: 19px;
-  line-height: 15px;
-  flex: 1;
 }
 main .cuerpo2 .titulo2-mensaje .caja-avatar .icon-mensaje p {
   margin: 0px;
   font-size: 14px;
-  flex: 1;
 }
 main .cuerpo2 .titulo2-icon {
   flex: 1;
@@ -167,6 +171,23 @@ main .cuerpo3 .cuerpo3-texto p {
 main .cuerpo3 .cuerpo3-acceso {
   flex: 1;
 }
+main .cuerpo3 .cuerpo3-acceso input {
+  margin: 13px 13px;
+  margin-left: 0px;
+  padding: 12px 50px;
+  padding-left: 15px;
+  text-align: left;
+}
+main .cuerpo3 .cuerpo3-acceso .boton-azul2 {
+  padding: 14px 60px;
+  background-color: #2F65F8;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
 
 footer {
   padding: 4rem 4rem;
@@ -176,8 +197,22 @@ footer .listas {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  color: #FFFFFF;
 }
 footer .listas li {
-  color: #FFFFFF;
   list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+}
+footer .listas .listas1 {
+  line-height: 2.5rem;
+}
+footer .listas .listas2 {
+  line-height: 2.5rem;
+}
+footer .listas .listas3 {
+  line-height: 2.5rem;
+}
+footer .listas .listas4 {
+  line-height: 2.5rem;
 }/*# sourceMappingURL=diseño.css.map */
