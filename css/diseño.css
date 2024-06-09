@@ -202,17 +202,20 @@ footer .listas {
 footer .listas li {
   list-style: none;
   font-family: "Open Sans", sans-serif;
-  font-size: 30px;
+  font-size: 16px;
 }
 footer .listas .listas1 {
   line-height: 2.5rem;
 }
 footer .listas .listas2 {
   line-height: 2.5rem;
+  cursor: pointer;
 }
 footer .listas .listas3 {
   line-height: 2.5rem;
+  cursor: pointer;
 }
 footer .listas .listas4 {
   line-height: 2.5rem;
+  cursor: pointer;
 }/*# sourceMappingURL=diseño.css.map */
