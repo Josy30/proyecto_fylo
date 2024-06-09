@@ -163,6 +163,7 @@ main .cuerpo3 .cuerpo3-texto h1 {
   line-height: 4rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  margin-top: 0px;
 }
 main .cuerpo3 .cuerpo3-texto p {
   font-family: "Open Sans", sans-serif;
@@ -209,6 +210,13 @@ footer .listas .listas1 {
 }
 footer .listas .listas2 {
   line-height: 2.5rem;
+  cursor: pointer;
+}
+footer .listas .listas2 a {
+  color: #FFFFFF;
+}
+footer .listas .listas2 a:hover {
+  color: #1717FF;
   cursor: pointer;
 }
 footer .listas .listas3 {

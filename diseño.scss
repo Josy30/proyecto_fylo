@@ -187,6 +187,7 @@ font-family: "Raleway", sans-serif;
                     line-height: 4rem;
                     font-weight: bold;
                     margin-bottom: 1rem;
+                    margin-top: 0px;
                     
                 }
                 p{
@@ -241,15 +242,19 @@ footer{
         .listas1{
         line-height: 2.5rem;
         
-            svg{
-            
-                
-            }
             
         }
         .listas2{
         line-height: 2.5rem;
         cursor:pointer;
+        a{
+        color:#FFFFFF;  
+        }
+        a:hover{
+            color: #1717FF;
+            cursor: pointer;
+        }
+    
         }
 
         .listas3{
