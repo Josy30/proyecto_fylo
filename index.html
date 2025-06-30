@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -13,8 +15,8 @@
 <body>
     <!-- seccion INICIO -->
 
-<span class="sombra">
-    <section id="inicio" class="inicio">
+    <span class="sombra">
+        <section id="inicio" class="inicio">
         <div class="contenido">
             <header>
                 <div class="logo"> 
@@ -32,6 +34,7 @@
                 <div id="icono-nav" onclick="responsiveMenu()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
+
                 <div class="redessociales">
                     <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
@@ -41,12 +44,9 @@
     
         <div class="fila">
             <div class="col">
-                <h2>All your files in one secure<br> location, accessible anywhere.</h2>
-                <p>Fylo stores your most important files in one secure location. Access<br> them wherever you need, share and collaborate with friends, family,<br> and co-workers.</p>
-                <form>
-                <input id="email" type="email" placeholder="Enter your email..." required> 
-                <input class="boton-azul" type="submit" value="Get Started">
-                </form>
+                <h2>Adopta y engríe </h2>
+                <p>Centro de adopcion, servicios de veterinaria, baños y limpiezas, entre otros.</p>
+                <button class="btn btn-1">Adoptar</button>
             </div>
                 <div class="col">
                     <div class="contenedor-img">
@@ -55,86 +55,170 @@
                 </div>
             </div>
         </div>
-    </section>
-</span> 
+        </section>
+    </span>
 
-
-        <section class="cuerpo2">
-            <div class="titulo2">
-                <h1>Stay productive, wherever you are</h1>
-                <p>Never let location be an issue when accessing your files. Fylo has you<br> covered for all of your file storage needs.</p>
-                <p>Securely share files and folders with friends, family and colleagues for<br> live collaboration. No email attachments required!</p>
-                
-                <a>See how Fylo works</a> 
-                
-                <div class="titulo2-mensaje">
-                    <svg width="13" height="12" xmlns="http://www.w3.org/2000/svg"><text transform="translate(-34 -25)" fill="#07043B" fill-rule="evenodd" font-family="Helvetica" font-size="45"><tspan x="33" y="56">“</tspan></text></svg>
-                    <p>Fylo has improved our team productivity by<br> an order of magnitude. Since making the<br> switch our team has become a well-oiled<br> collaboration machine.</p>
-                <div class="caja-avatar">
-                <div class="avatar">
-                        <img src="./fylo-landing-page-with-two-column-layout-master/images/avatar-testimonial.jpg" alt="avtar-testimonial">
-                <div class="icon-mensaje">
-                        <h3>Kyle Burton</h3>
-                        <p>Founder & CEO, Huddle</p>
-                </div>
-                </div>
-                </div>
-                </div>
-            </div>
+    <!-- seccion S E R V I c i o s -->
+    <section id="servicios" class="servicios">
+        <div class="fila">
             
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-paw"></i>
+                        </div>
+                    </div>
+                    <h3>Adopcion</h3>
+                    <p>Adopta un paw </p>
+                    <a href="#">Consultar</a>
+                </div>
             </div>
-        </section>
-        <section class="cuerpo3">
-            <div class="cuerpo3-texto">
-                <h1>Get early access today</h1>
-                <p>It only takes a minute to sign up and our free starter tier is<br> extremely generous. If you have any questions, our support team<br> would be happy to help you.</p>
+
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-shield-dog"></i>
+                        </div>
+                    </div>
+                    <h3>Veterinario</h3>
+                    <p>servicio de vacunacion, desparacitacion y similares</p>
+                    <a href="#">Consultar</a>
+                </div>
             </div>
-            <div class="cuerpo3-acceso">
-                <form>
-                    <input id="email" type="email" placeholder="Email@example.com" required> 
-                    <input class="boton-azul2" type="submit" value="Get Started For Free">
-                </form>
-                
+
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-dog"></i>
+                        </div>
+                    </div>
+                    <h3>Baño</h3>
+                    <p>servicio de baño completo, todos los tamaños y razas</p>
+                    <a href="#">Consultar</a>
+                </div>
             </div>
-        </section>
-    </main>
-    <footer>
-        <div class="listas">
-        <div class="listas1">
-            <ul>
-                <li>
-                    
-                </li>
-                <li>            
-                    Phone: +1-543-123-4567</li>
-                <li>               
-                    example@fylo.com</li>
-            </ul>
         </div>
-        <div class="listas2">
-            <ul>
-                <li>About Us</li>
-                <li>Jobs</li>
-                <li>Press</li>
-                <li>Blog</li>
-            </ul>
-        </div>
-        <div class="listas3">
-            <ul>
-                <li>Contact Us</li>
-                <li>Terms</li>
-                <li>Privacy</li>
-            </ul>
-        </div>
-        <div class="listas4">
-            <ul>
-                <li><svg width="120" height="31" viewBox="0 0 120 31" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    
-                    </svg>
-                    </li>
-                </ul>
+    
+
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-regular fa-dog"></i>
+                        </div>
+                    </div>
+                    <h3>Corte y peinado</h3>
+                    <p>servicio de corte de pelo y uñas, </p>
+                    <a href="#">Consultar</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-thin fa-shield-dog"></i>
+                        </div>
+                    </div>
+                    <h3>Esterilizacion</h3>
+                    <p>servicio de Esterilizacion a perros y gatos.
+                    </p>
+                    <a href="#">Consultar</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-bone"></i>
+                        </div>
+                    </div>
+                    <h3>Croquetas y Ropa </h3>
+                    <p>venta de alimentos balanceados y ropa para verano e invierno de todas los tamaños</p>
+                    <a href="#">Consultar</a>
+                </div>
+            </div>
         </div>
     </div>
-    </footer>
+    </section>
+
+    <!-- seccion H A B I L I D A D E S -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart chart1" data-percent="90">
+                                90%
+                            </div>
+                            <h2>ADOPCION MENSUAL</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>ESTERILIZACION MENSUAL</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="65">
+                                65%
+                            </div>
+                            <h2>VACUNACION MENSUAL</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>1111111</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>2222222</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>333333333</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
 </body>
 </html>

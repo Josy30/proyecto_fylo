@@ -12,13 +12,13 @@ html{
 }
 
 body{
-    background-color: #d66dec41;
+    background-color: #f6fafc;
 }
 
 /*seccion I N I C I O*/
 .inicio{
-background:linear-gradient(to right, #320ad1, #1ea8e3);
-clip-path: polygon(100% 0, 100% 20%, 69% 55%, 0 20%, 0 0);
+background:linear-gradient(to right, #000c67, #007be5);
+clip-path: polygon(0 0, 100% 0, 100% 46%, 47% 84%, 0 45%);
 height: 90vh;
 padding:  0 20px;
 }
@@ -89,222 +89,184 @@ padding:  0 20px;
     width: 100%;
 }
 
+.inicio .fila .col button{
+    background: none;
+    width: fit-content;
+    padding: 5px 40px;
+    border: 2px solid #ff5b00;
+    color: #fff;
+    background: linear-gradient(to right, #ff5b00, #ff9900);
+    transition: .5s;
+    cursor: pointer;
+}
 
+.inicio .fila .col button:hover{
+    transform: scale(1.1);
+}
 
+#icono-nav{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50px;
+    transition: .3s;
+    cursor: pointer;
+    display: none;
+}
 
-            input{
-            margin: 13px 13px;
-            margin-left: 0px;
-            padding: 12px 50px;
-            padding-left: 15px;
-            text-align: left;
-            
-            }
-            .boton-azul{
-            padding: 14px 60px;
-            background-color: #2F65F8;  
-            border-radius: 3px; 
-            border: none;
-            color: white;
-            font-weight: bold;
-            font-size: 14px;
-            cursor: pointer;
-            }
+#icono-nav:hover{
+    background-color: #3e3e3e;
+}
 
+.sombra{
+    filter: drop-shadow(0em 30px 20px #9bd2f4);
+}
 
+/* SECCION S E R V I C I O S*/
 
-    .cuerpo2{
-    padding: 6rem 4rem;
-    margin-bottom: 0;
-    display: flex;
-    height: 40rem;
-    background-color: #F8F8FE;
-    color:#07043B;
-        .titulo2{
-        flex:1;
-            h1{
-                font-size: 40px;
-                font-family: "Raleway", sans-serif;
-                line-height: 4rem;
-                font-weight: bold;
-                margin-bottom: 1rem; 
-            }
-            p{
-                font-family:"Open Sans", sans-serif; 
-                font-size: 17px;
-            }
-            a{
-                color: #3DA08F;
-                font-size: 17px;
-                margin-bottom: 2rem;
-            }
-            .see-icon{
-                height: 20px;
-            }
-        }
+.servicios{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    position: relative;
+    top: -170px;
+}
 
-        .titulo2-mensaje{
-            border-color: #07043B;
-            border-width: 10px;
-            background-color: #FFFFFF;
-            padding: 35px;
-            width: 22rem;
-            line-height: 2rem;
-            font-family:"Open Sans", sans-serif;
-            border-radius: 5px;
-            margin-top: 2.5rem;
-            font-size: 17px;
-            box-shadow: 0px 0px 22px -5px #000000;
-            display: flex;
-            flex-direction: column;
-            
-            svg{
-                font-size: 45px;
-            }
-
-            p{
-                font-family:"Open Sans", sans-serif; ;
-                margin:5px;
-                padding: 10px 20px;
-                width: 100%;
-                padding-left: 0px;
-            }
-        .caja-avatar{
-        
-            .avatar{
-                display: flex;
-                img{
-                border-radius: 60px;
-                width: 50px;
-                height: 50px;
-                }
-            }
-
-            .icon-mensaje{
-                padding-left: 1rem;
-                font-family:"Open Sans", sans-serif;
-                line-height: 1rem;
-                h3{
-                    margin: 0px;
-                    font-size:19px;
-                    
-                    
-                }
-                p{
-                    margin:0px;
-                    font-size:14px;
-                    
-                    
-                }
-            }
-
-        }
-              
-        }
-        .titulo2-icon{
-            flex: 1;
-                svg{
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-        
-    }
-
-    .cuerpo3{
-        padding: 4rem 4rem;
-        display: flex;
-        background-color: #575988;
-        color: #FFFFFF;
-            .cuerpo3-texto{
-                flex:1;
-                h1{
-                    font-size: 40px;
-                    font-family: "Raleway", sans-serif;
-                    line-height: 4rem;
-                    font-weight: bold;
-                    margin-bottom: 1rem;
-                    margin-top: 0px;
-                    
-                }
-                p{
-                    font-family:"Open Sans", sans-serif; 
-                    font-size: 17px;
-                }
-            }
-
-            .cuerpo3-acceso{
-                flex:1;
-                input{
-                margin: 13px 13px;
-                margin-left: 0px;
-                padding: 12px 50px;
-                padding-left: 15px;
-                text-align: left;
-                }
-                .boton-azul2{
-                padding: 14px 60px;
-                background-color: #2F65F8;  
-                border-radius: 3px; 
-                border: none;
-                color: white;
-                font-weight: bold;
-                font-size: 14px;
-                cursor: pointer;
-                }
-            }
-
-    }
-
-
-
-
-footer{
-    padding: 4rem 4rem;
-    background-color: #07043B;
-    
-
-    .listas{
+.servicios .fila{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    color:#FFFFFF;
-    
-    li{
-        list-style: none;
-        font-family:"Open Sans", sans-serif;
-        font-size: 16px;
-
-    }
-        .listas1{
-        line-height: 2.5rem;
-        
-            
-        }
-        .listas2{
-        line-height: 2.5rem;
-        cursor:pointer;
-        a{
-        color:#FFFFFF;  
-        }
-        a:hover{
-            color: #1717FF;
-            cursor: pointer;
-        }
-    
-        }
-
-        .listas3{
-        line-height: 2.5rem;
-        cursor:pointer;
-        }
-
-        .listas4{
-        line-height: 2.5rem;
-        cursor:pointer;
-        }
-        
-    }
+    margin-bottom: 50px;
 }
+
+.servicios .fila .col{
+    text-align: center;
+    width: 30%;
+}
+
+.servicios .fila .col .card{
+    border: 1px solid #8d8d8d;
+    height: 400px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.servicios .icono{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.servicios .icono .circulo{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.color1{
+    background: linear-gradient(#ff9900, #ff5b00);
+}
+
+.color2{
+    background: linear-gradient(#038aee, #0039a9);
+}
+
+.color3{
+    background: linear-gradient(#04e2ee, #017795);
+}
+
+.servicios h3{
+    margin-bottom: 20px;
+}
+
+.servicios .card p{
+    color: #8d8d8d;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.servicios .card a{
+    text-decoration: none;
+    color: #008cff;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* seccion H A B I L I D A D E S*/
+.habilidades{
+    background: linear-gradient(to right, #000c76, #007be5);
+    color: #fff;
+    padding: 60px 0;
+    position: relative;
+    top: -100px;
+}
+
+.habilidades h2{
+    text-align: center;
+}
+
+.habilidades .contenedor-habi{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.habilidades .fila{
+    display: flex;
+    justify-content: space-around ;
+}
+
+.score{
+    padding: 10px;
+    margin: auto 0;
+}
+
+.score .box{
+    width: 100px;
+}
+
+.score .box h2{
+    display: block;
+    text-align: center;
+}
+
+.score .box .chart{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    line-height: 160px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*dinamica de la libreria para graficos*/
+
+.score .box canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
 
 
