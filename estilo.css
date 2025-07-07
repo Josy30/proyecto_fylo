@@ -131,6 +131,7 @@ padding:  0 20px;
     padding: 0 20px;
     position: relative;
     top: -170px;
+    z-index: 10;
 }
 
 .servicios .fila{
@@ -262,11 +263,116 @@ padding:  0 20px;
     left: 0;
 }
 
+/* seccion CONTACTO */
+.contacto{
+    background: 
+                linear-gradient(rgba(0,12,103,1), rgba(0,12,103,.8)),
+                url(img/foto-contacto.png);
+                background-size: cover;
+                color: #fff;
+                margin-top: 100px;
+                padding: 80px 20px;
+}
 
+.contacto .contenedor-contacto{
+    max-width: 1100px;
+    margin: auto;
+}
 
+.contacto h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
 
+.contacto .contenedor-contacto .fila{
+    display: flex;
+}
 
+.contacto .contenedor-contacto .fila .col{
+    width: 50%;
+}
 
+.contacto .contenedor-contacto .info{
+    margin-bottom: 30px;
+    border-left: 3px solid #8d8d8d;
+    padding-left: 8px;
+}
 
+.contacto .contenedor-contacto .info p{
+    color:#8d8d8d;
+}
 
+.contacto input, .contacto textarea{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #8d8d8d;
+    margin-bottom: 20px;
+    outline: none;
+    color:#ff5b00;
+}
 
+.contacto .btn{
+    background-color: none;
+    padding: 5px 40px;
+    border: 2px solid;
+    color:#fff;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff5b00, #ff9900);
+}
+
+footer{
+    background-color: #000;
+    color:#fff;
+    padding: 7px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* seccion RESPONSIVE*/
+@media screen and (max-width:1180px){
+    .inicio{
+        clip-path: none;
+    }
+}
+@media screen and (max-width:800px){
+    .redes {
+        display: none;
+    }
+    #nav {
+        display: none;
+    }
+    #nav.responsive{
+        background-color: rgba(0, 0, 0, .9);
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 99;
+    }
+
+    #nav .responsive a{
+        font-size: 30px;
+    }
+    #icono-nav{
+        display: block;
+    }
+
+    .inicio{
+        height: 100vh;
+    }
+    .inicio .fila{
+        display: block;
+    }
+    .icono .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+}
