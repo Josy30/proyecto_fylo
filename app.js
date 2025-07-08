@@ -32,4 +32,13 @@ function cargarAnimaciones(){
     })
 }
 
+function efectoHabilidades(){
+    const skills = document.getElementById("habilidades");
+    const distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
+    if(distancia_skills >= 300){
+        let habilidades = document.getElementsByClassName("chart");
+        habilidades(0).classList.add
+    }
+}
+
 cargarAnimaciones();

@@ -375,4 +375,41 @@ footer{
         width: 100%;
         text-align: center;
     }
+    .inicio .fila .col h2{
+        margin-top: 20px;
+    }
+    .inicio .fila .col .contenedor-img{
+        width: 50%;
+        margin-top: 30px;
+    }
+    .servicios{
+        position: static;
+        padding: 20px;
+    }
+    .servicios .fila{
+        display: block;
+        margin-bottom: 0;
+    }
+    .servicios .fila .col{
+        width: 70%;
+        margin: auto;
+    }
+    .servicios .fila .col .card{
+        margin-bottom: 20px;
+    }
+    .habilidades{
+        position: static;
+    }
+    .contacto .fila{
+        display: block !important;
+    }
+    .contacto .fila .col{
+        text-align: center;
+        width: 100% !important;
+    }
+    .contacto .fila .col .info{
+        float: left;
+        font-size: 12px;
+        width: 25%;
+    }
 }
