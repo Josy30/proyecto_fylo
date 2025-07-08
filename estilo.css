@@ -123,6 +123,62 @@ padding:  0 20px;
     filter: drop-shadow(0em 30px 20px #9bd2f4);
 }
 
+/* seccion H A B I L I D A D E S*/
+.habilidades{
+    background: linear-gradient(to right, #000c76, #007be5);
+    clip-path: ellipse(50% 98% at 50% 98%);
+    color: #fff;
+    padding: 60px 0;
+    position: relative;
+    top: -100px;
+}
+
+.habilidades h2{
+    text-align: center;
+}
+
+.habilidades .contenedor-habi{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.habilidades .fila{
+    display: flex;
+    justify-content: space-around ;
+}
+
+.score{
+    padding: 10px;
+    margin: auto 0;
+}
+
+.score .box{
+    width: 100px;
+}
+
+.score .box h2{
+    display: block;
+    text-align: center;
+}
+
+.score .box .chart{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    line-height: 160px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*dinamica de la libreria para graficos*/
+
+.score .box canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /* SECCION S E R V I C I O S*/
 
 .servicios{
@@ -206,61 +262,6 @@ padding:  0 20px;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-}
-
-/* seccion H A B I L I D A D E S*/
-.habilidades{
-    background: linear-gradient(to right, #000c76, #007be5);
-    color: #fff;
-    padding: 60px 0;
-    position: relative;
-    top: -100px;
-}
-
-.habilidades h2{
-    text-align: center;
-}
-
-.habilidades .contenedor-habi{
-    max-width: 1100px;
-    margin: auto;
-}
-
-.habilidades .fila{
-    display: flex;
-    justify-content: space-around ;
-}
-
-.score{
-    padding: 10px;
-    margin: auto 0;
-}
-
-.score .box{
-    width: 100px;
-}
-
-.score .box h2{
-    display: block;
-    text-align: center;
-}
-
-.score .box .chart{
-    position: relative;
-    width: 160px;
-    height: 160px;
-    margin: auto;
-    line-height: 160px;
-    font-size: 40px;
-    text-align: center;
-}
-
-/*dinamica de la libreria para graficos*/
-
-.score .box canvas{
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 /* seccion CONTACTO */
